@@ -2,6 +2,9 @@
 #include <thread>
 #include <iostream>
 #include <csignal>
+#include <openssl/ec.h>
+#include <openssl/ecdsa.h>
+#include <openssl/obj_mac.h>
 
 void runNode(AhmiyatChain& chain, int port) {
     chain.startNodeListener(port);
