@@ -1,5 +1,6 @@
 #include "blockchain.h"
 #include <thread>
+#include <sstream>
 #include <iostream>
 #include <csignal>
 #include <openssl/ec.h>
