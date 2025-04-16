@@ -2,6 +2,7 @@
 #include <openssl/ecdsa.h>
 #include <openssl/obj_mac.h>
 #include <stdexcept>
+#include <microhttpd.h>
 
 Wallet::Wallet() {
     EC_KEY* key = EC_KEY_new_by_curve_name(NID_secp256k1);
