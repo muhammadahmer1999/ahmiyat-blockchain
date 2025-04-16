@@ -3,6 +3,7 @@
 #include <arpa/inet.h>
 #include <sys/socket.h>
 #include <stdexcept>
+#include <microhttpd.h>
 
 extern void log(const std::string& message);
 
